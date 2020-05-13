@@ -52,7 +52,7 @@ export class User extends Component {
               alt=""
               style={{ width: '150px' }}
             />
-            <h1>{name}</h1>
+            <h2>{name}</h2>
             <p>Location: {location}</p>
           </div>
           <div>
@@ -94,7 +94,7 @@ export class User extends Component {
           <div className="badge badge-primary">Followers: {followers}</div>
           <div className="badge badge-success">Following: {following}</div>
           <div className="badge badge-light">Public Repos: {public_repos}</div>
-          <div className="badge badge-dark">Public Gist : {public_gists}</div>
+          <div className="badge badge-danger">Public Gist : {public_gists}</div>
         </div>
         <Repos repos={repos} />
       </Fragment>
